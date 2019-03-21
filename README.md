@@ -47,7 +47,7 @@
 ![](https://github.com/Starbucksstar/SkyWalking/blob/master/img/service2.jpg)
 
 	  7.然后进localhost:8080查看Skywalking UI管理页面，如下图所示
-	  https://github.com/Starbucksstar/SkyWalking/blob/master/img/dashboard.jpg
+![](https://github.com/Starbucksstar/SkyWalking/blob/master/img/dashboard.jpg)
 	  
 	  8.通过postman调用sky接口，在ui后台查看链路调用情况，如下图。
 ![](https://github.com/Starbucksstar/SkyWalking/blob/master/img/trace.jpg)
