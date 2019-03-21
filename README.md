@@ -2,7 +2,8 @@
 分布式链路追踪系统(APM)
 
 ### 1.背景
-> 随着微服务架构的流行，基于dubbo和spring cloud等框架选用开始成为大小企业构建后端微服务的利剑。但是并不是微服务拆分的越小越好或者横向扩展越多越好，微服务内部集群难免会存在某台机器故障或者连接数据库异常等，导致该机器所在服务成为整个架构的性能瓶颈，所以需要对微服务工程无代码侵入、性能良好、便于集成的框架，可以帮助理解系统行为、用于分析性能问题的工具，以便发生故障的时候，能够快速定位和解决问题，这就是APM(application performance management)，常用工具：Cat、Zipkin、Pinpoint、SkyWalking。这里我们选用SkyWalking（国产）。	随着微服务架构的流行，基于dubbo和spring cloud等框架选用开始成为大小企业构建后端微服务的利剑。但是并不是微服务拆分的越小越好或者横向扩展越多越好，微服务内部集群难免会存在某台机器故障或者连接数据库异常等，导致该机器所在服务成为整个架构的性能瓶颈，所以需要对微服务工程无代码侵入、性能良好、便于集成的框架，可以帮助理解系统行为、用于分析性能问题的工具，以便发生故障的时候，能够快速定位和解决问题，这就是APM(application performance management)，常用工具：Cat、Zipkin、Pinpoint、SkyWalking。这里我们选用SkyWalking（国产）。
+> 随着微服务架构的流行，基于dubbo和spring cloud等框架选用开始成为大小企业构建后端微服务的利剑。但是并不是微服务拆分的越小越好或者横向扩展越多越好，微服务内部集群难免会存在某台机器故障或者连接数据库异常等，导致该机器所在服务成为整个架构的性能瓶颈，所以需要对微服务工程无代码侵入、性能良好、便于集成的框架，可以帮助理解系统行为、用于分析性能问题的工具，以便发生故障的时候，能够快速定位和解决问题，这就是APM(application performance management)，常用工具：Cat、Zipkin、Pinpoint、SkyWalking。这里我们选用SkyWalking（国产）。	
+
 ### 2.SkyWalking
 	1.架构图：
 ![](https://github.com/Starbucksstar/SkyWalking/blob/master/img/architecture.png)
